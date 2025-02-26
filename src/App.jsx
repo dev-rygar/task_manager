@@ -24,8 +24,8 @@ const App = () => {
   };
 
   return (
-    <main>
-      <h1>Tasks</h1>
+    <main className="main">
+      <h1 className="font-serif">Task Manager</h1>
       <NewTask
         newTask={newTask}
         handleChange={handleChange}
